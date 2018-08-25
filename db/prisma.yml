@@ -1,0 +1,4 @@
+endpoint: https://us1.prisma.sh/color-classifire/db/dev
+datamodel:
+  - types.graphql
+  - enums.graphql

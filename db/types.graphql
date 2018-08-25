@@ -1,0 +1,24 @@
+type Color {
+  id: ID! @unique
+  r: Int!
+  g: Int!
+  b: Int!
+  label: Label!
+}
+
+enum LabelName {
+  RED
+  BLUE
+  GREEN
+  ORANGE
+  YELLOW
+  PINK
+  PURPLE
+  BROWN
+  GREY
+}
+
+type Label {
+  id: ID! @unique
+  name: LabelName! @unique
+}

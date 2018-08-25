@@ -1,0 +1,11 @@
+enum LabelName {
+  RED
+  BLUE
+  GREEN
+  ORANGE
+  YELLOW
+  PINK
+  PURPLE
+  BROWN
+  GREY
+}
